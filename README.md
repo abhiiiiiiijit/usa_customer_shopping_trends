@@ -17,7 +17,7 @@ Databases: BigQuery for structured data management.
 Workflow manager: Apache Airflow
 
 
-Outcomes:
+#### Outcomes:
 
 Comprehensive insights into customer purchasing habits.
 Data-driven recommendations for enhancing business operations.
