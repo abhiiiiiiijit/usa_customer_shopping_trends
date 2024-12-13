@@ -293,3 +293,58 @@ ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
 [2024-12-13T18:56:29.558+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2024-12-13T19:01:29.592+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2024-12-13T19:06:29.735+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T19:11:29.771+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T19:16:29.835+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T19:21:29.871+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13 19:23:24 +0100] [3805] [ERROR] Worker (pid:3806) was sent SIGHUP!
+[2024-12-13 19:23:24 +0100] [3805] [ERROR] Worker (pid:3815) was sent SIGHUP!
+[2024-12-13 19:23:24 +0100] [3805] [INFO] Handling signal: hup
+[2024-12-13 19:23:24 +0100] [3805] [INFO] Hang up: Master
+[2024-12-13 19:23:25 +0100] [18203] [INFO] Booting worker with pid: 18203
+[2024-12-13 19:23:25 +0100] [18202] [INFO] Booting worker with pid: 18202
+[2024-12-13T19:26:29.913+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:17:15.411+0100] {job.py:229} INFO - Heartbeat recovered after 2820.21 seconds
+[2024-12-13T20:18:25.128+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:23:25.166+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:28:25.204+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:33:25.244+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:38:35.752+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:43:35.847+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:48:35.917+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:53:35.954+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T20:58:35.991+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:03:36.045+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:08:36.112+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:13:36.148+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:18:36.184+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:23:36.219+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:28:36.284+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:33:36.321+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:38:36.359+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:43:36.399+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:48:36.438+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:53:36.474+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T21:58:36.615+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:03:36.654+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:08:36.693+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:13:36.728+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:18:36.769+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:23:36.828+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:28:36.865+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:33:36.911+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:38:37.054+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:43:37.091+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:48:37.128+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:53:37.168+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T22:56:36.813+0100] {scheduler_job_runner.py:260} INFO - Exiting gracefully upon receiving signal 15
+[2024-12-13T22:56:37.361+0100] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 3807. PIDs of all processes in the group: []
+[2024-12-13T22:56:37.364+0100] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 3807
+[2024-12-13T22:56:37.366+0100] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 3807 as process group is missing.
+[2024-12-13T22:56:37.370+0100] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 3807. PIDs of all processes in the group: []
+[2024-12-13T22:56:37.370+0100] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 3807
+[2024-12-13T22:56:37.371+0100] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 3807 as process group is missing.
+[2024-12-13T22:56:37.373+0100] {scheduler_job_runner.py:1017} INFO - Exited execute loop
+[2024-12-13 22:56:37 +0100] [3805] [INFO] Handling signal: term
+[2024-12-13 22:56:37 +0100] [18203] [INFO] Worker exiting (pid: 18203)
+[2024-12-13 22:56:37 +0100] [18202] [INFO] Worker exiting (pid: 18202)
+[2024-12-13 22:56:37 +0100] [3805] [INFO] Shutting down: Master
