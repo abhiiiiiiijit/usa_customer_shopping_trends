@@ -43,12 +43,6 @@
         <mxCell id="Lif8JBEafslfNm7ranTe-6" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="220" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PbuRYt7sFYghzyY9T2_R-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lif8JBEafslfNm7ranTe-9" target="PbuRYt7sFYghzyY9T2_R-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PbuRYt7sFYghzyY9T2_R-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Lif8JBEafslfNm7ranTe-9" target="Lif8JBEafslfNm7ranTe-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Lif8JBEafslfNm7ranTe-9" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="315" width="70" height="70" as="geometry" />
         </mxCell>
@@ -71,6 +65,9 @@
         </mxCell>
         <mxCell id="PbuRYt7sFYghzyY9T2_R-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" vertex="1" parent="1">
           <mxGeometry x="728.12" y="327.5" width="33.75" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PbuRYt7sFYghzyY9T2_R-26" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=data:image/png,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;" vertex="1" parent="1">
+          <mxGeometry x="255.71" y="235" width="38.57" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
