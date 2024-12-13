@@ -63,6 +63,15 @@
         <mxCell id="PbuRYt7sFYghzyY9T2_R-3" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.webicons.github;gradientColor=#DFDEDE" vertex="1" parent="1">
           <mxGeometry x="250" y="420.75" width="50" height="56.5" as="geometry" />
         </mxCell>
+        <mxCell id="PbuRYt7sFYghzyY9T2_R-15" value="Consumers" style="rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;fillColor=#F1F8E9;" vertex="1" parent="1">
+          <mxGeometry x="700" y="179" width="90" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PbuRYt7sFYghzyY9T2_R-17" value="" style="strokeColor=#dddddd;fillColor=#ffffff;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;spacingLeft=0;fontColor=#999999;fontSize=12;whiteSpace=wrap;spacingBottom=2;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="310" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PbuRYt7sFYghzyY9T2_R-19" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/power_platform/PowerBI.svg;" vertex="1" parent="1">
+          <mxGeometry x="728.12" y="327.5" width="33.75" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
