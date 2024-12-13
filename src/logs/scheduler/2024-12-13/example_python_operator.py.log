@@ -1,0 +1,48 @@
+[2024-12-13T18:06:28.788+0100] {processor.py:186} INFO - Started process (PID=46681) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:06:28.791+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py for tasks to queue
+[2024-12-13T18:06:28.793+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:28.792+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:06:28.817+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:28.816+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-13T18:06:28.823+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:06:29.486+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.485+0100] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-12-13T18:06:29.514+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.514+0100] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-12-13T18:06:29.533+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.532+0100] {override.py:1911} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-12-13T18:06:29.569+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.568+0100] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:example_python_operator
+[2024-12-13T18:06:29.589+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.588+0100] {override.py:1911} INFO - Created Permission View: can create on DAG Run:example_python_operator
+[2024-12-13T18:06:29.607+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.607+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Run:example_python_operator
+[2024-12-13T18:06:29.626+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.626+0100] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:example_python_operator
+[2024-12-13T18:06:29.627+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.627+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:06:29.638+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.638+0100] {dag.py:3262} INFO - Creating ORM DAG for example_python_operator
+[2024-12-13T18:06:29.639+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:06:29.639+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-13T18:06:29.672+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py took 0.891 seconds
+[2024-12-13T18:07:00.069+0100] {processor.py:186} INFO - Started process (PID=46803) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:00.071+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py for tasks to queue
+[2024-12-13T18:07:00.074+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:00.074+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:00.096+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:00.095+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-13T18:07:00.102+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:00.138+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:00.138+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:07:00.161+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:00.161+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-13T18:07:00.201+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py took 0.143 seconds
+[2024-12-13T18:07:30.445+0100] {processor.py:186} INFO - Started process (PID=46939) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:30.469+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py for tasks to queue
+[2024-12-13T18:07:30.471+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:30.471+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:30.488+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:30.488+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-13T18:07:30.493+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:07:30.513+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:30.513+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:07:30.524+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:07:30.524+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-13T18:07:30.555+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py took 0.116 seconds
+[2024-12-13T18:08:01.011+0100] {processor.py:186} INFO - Started process (PID=47097) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:01.066+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py for tasks to queue
+[2024-12-13T18:08:01.069+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:01.068+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:01.086+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:01.086+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-13T18:08:01.091+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:01.112+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:01.111+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:08:01.131+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:01.131+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-13T18:08:01.168+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py took 0.164 seconds
+[2024-12-13T18:08:31.380+0100] {processor.py:186} INFO - Started process (PID=47280) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:31.419+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py for tasks to queue
+[2024-12-13T18:08:31.421+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:31.421+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:31.436+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:31.436+0100] {example_python_operator.py:93} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2024-12-13T18:08:31.441+0100] {processor.py:925} INFO - DAG(s) 'example_python_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py
+[2024-12-13T18:08:31.459+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:31.459+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:08:31.470+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:31.470+0100] {dag.py:4180} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-12-13T18:08:31.503+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_python_operator.py took 0.126 seconds
