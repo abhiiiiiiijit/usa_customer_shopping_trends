@@ -23,3 +23,8 @@
 [2024-12-13T18:08:37.612+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:37.612+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py
 [2024-12-13T18:08:37.614+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py
 [2024-12-13T18:08:37.623+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py took 0.020 seconds
+[2024-12-13T18:09:08.892+0100] {processor.py:186} INFO - Started process (PID=47474) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py
+[2024-12-13T18:09:08.916+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py for tasks to queue
+[2024-12-13T18:09:08.918+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:08.918+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py
+[2024-12-13T18:09:08.920+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py
+[2024-12-13T18:09:08.928+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/decreasing_priority_weight_strategy.py took 0.039 seconds
