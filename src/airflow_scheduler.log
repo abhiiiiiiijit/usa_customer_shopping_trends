@@ -5,29 +5,21 @@ nohup: ignoring input
 ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
 ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
-[2024-12-13T23:02:32.030+0100] {_client.py:1025} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.3&python_version=3.10&platform=Linux&arch=x86_64&database=sqlite&db_version=3.37&executor=SequentialExecutor "HTTP/1.1 200 OK"
-[2024-12-13T23:02:32.274+0100] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
-[2024-12-13 23:02:32 +0100] [36757] [INFO] Starting gunicorn 23.0.0
-[2024-12-13 23:02:32 +0100] [36757] [INFO] Listening at: http://[::]:8793 (36757)
-[2024-12-13 23:02:32 +0100] [36757] [INFO] Using worker: sync
-[2024-12-13T23:02:32.329+0100] {scheduler_job_runner.py:938} INFO - Starting the scheduler
-[2024-12-13T23:02:32.330+0100] {scheduler_job_runner.py:945} INFO - Processing each file at most -1 times
-[2024-12-13 23:02:32 +0100] [36758] [INFO] Booting worker with pid: 36758
-[2024-12-13T23:02:32.336+0100] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 36759
-[2024-12-13T23:02:32.338+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-13T23:02:32.342+0100] {settings.py:63} INFO - Configured default timezone UTC
+[2024-12-13T23:36:25.115+0100] {_client.py:1025} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.3&python_version=3.10&platform=Linux&arch=x86_64&database=sqlite&db_version=3.37&executor=SequentialExecutor "HTTP/1.1 200 OK"
+[2024-12-13T23:36:25.326+0100] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-12-13 23:36:25 +0100] [647] [INFO] Starting gunicorn 23.0.0
+[2024-12-13 23:36:25 +0100] [647] [INFO] Listening at: http://[::]:8793 (647)
+[2024-12-13 23:36:25 +0100] [647] [INFO] Using worker: sync
+[2024-12-13 23:36:25 +0100] [648] [INFO] Booting worker with pid: 648
+[2024-12-13T23:36:25.386+0100] {scheduler_job_runner.py:938} INFO - Starting the scheduler
+[2024-12-13T23:36:25.388+0100] {scheduler_job_runner.py:945} INFO - Processing each file at most -1 times
+[2024-12-13T23:36:25.394+0100] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 649
+[2024-12-13T23:36:25.397+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T23:36:25.400+0100] {settings.py:63} INFO - Configured default timezone UTC
 /home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
-[2024-12-13T23:02:32.372+0100] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
-[2024-12-13 23:02:32 +0100] [36760] [INFO] Booting worker with pid: 36760
-[2024-12-13T23:07:32.390+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-13T23:12:32.430+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-13 23:16:08 +0100] [36757] [ERROR] Worker (pid:36758) was sent SIGHUP!
-[2024-12-13 23:16:08 +0100] [36757] [ERROR] Worker (pid:36760) was sent SIGHUP!
-[2024-12-13 23:16:08 +0100] [40103] [INFO] Booting worker with pid: 40103
-[2024-12-13 23:16:08 +0100] [40104] [INFO] Booting worker with pid: 40104
-[2024-12-13 23:16:08 +0100] [36757] [INFO] Handling signal: hup
-[2024-12-13 23:16:08 +0100] [36757] [INFO] Hang up: Master
-[2024-12-13 23:16:08 +0100] [40105] [INFO] Booting worker with pid: 40105
-[2024-12-13 23:16:08 +0100] [40103] [INFO] Worker exiting (pid: 40103)
-[2024-12-13 23:16:08 +0100] [40104] [INFO] Worker exiting (pid: 40104)
-[2024-12-13 23:16:08 +0100] [40107] [INFO] Booting worker with pid: 40107
+[2024-12-13T23:36:25.426+0100] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-12-13 23:36:25 +0100] [650] [INFO] Booting worker with pid: 650
+[2024-12-13T23:41:25.454+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T23:46:25.493+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T23:51:25.526+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-13T23:56:25.639+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs

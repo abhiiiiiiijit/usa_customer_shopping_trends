@@ -7,7 +7,6 @@ rollback_and_exit() {
     exit 1
 }
 
-source /home/adminabhi/gitrepo/airflow_local_server/airflow-venv/bin/activate  || rollback_and_exit
 
 export AIRFLOW__CORE__DAGS_FOLDER=/home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags  || rollback_and_exit
 
