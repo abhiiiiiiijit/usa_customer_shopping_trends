@@ -48,3 +48,10 @@
 [2024-12-13T18:09:10.544+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:10.543+0100] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-13T18:09:10.559+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:10.559+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-12 00:00:00+00:00, run_after=2024-12-13 00:00:00+00:00
 [2024-12-13T18:09:10.588+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py took 0.129 seconds
+[2024-12-13T18:09:40.773+0100] {processor.py:186} INFO - Started process (PID=47643) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py
+[2024-12-13T18:09:40.797+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py for tasks to queue
+[2024-12-13T18:09:40.799+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:40.799+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py
+[2024-12-13T18:09:40.810+0100] {processor.py:925} INFO - DAG(s) 'example_bash_operator' retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py
+[2024-12-13T18:09:40.831+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:40.830+0100] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-13T18:09:40.846+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:09:40.846+0100] {dag.py:4180} INFO - Setting next_dagrun for example_bash_operator to 2024-12-12 00:00:00+00:00, run_after=2024-12-13 00:00:00+00:00
+[2024-12-13T18:09:40.876+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/example_bash_operator.py took 0.107 seconds
