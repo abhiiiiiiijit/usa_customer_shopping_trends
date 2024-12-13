@@ -18,3 +18,8 @@
 [2024-12-13T18:08:08.391+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:08.390+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py
 [2024-12-13T18:08:08.393+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py
 [2024-12-13T18:08:08.402+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py took 0.060 seconds
+[2024-12-13T18:08:38.754+0100] {processor.py:186} INFO - Started process (PID=47338) to work on /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py
+[2024-12-13T18:08:38.757+0100] {processor.py:914} INFO - Processing file /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py for tasks to queue
+[2024-12-13T18:08:38.760+0100] {logging_mixin.py:190} INFO - [2024-12-13T18:08:38.760+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py
+[2024-12-13T18:08:38.764+0100] {processor.py:927} WARNING - No viable dags retrieved from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py
+[2024-12-13T18:08:38.778+0100] {processor.py:208} INFO - Processing /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/plugins/listener_plugin.py took 0.031 seconds
