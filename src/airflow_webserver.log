@@ -1,0 +1,536 @@
+nohup: ignoring input
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+[2024-12-13T18:26:21.593+0100] {override.py:1911} INFO - Created Permission View: can create on DAG Runs
+[2024-12-13T18:26:21.613+0100] {override.py:1962} INFO - Added Permission can create on DAG Runs to role Admin
+[2024-12-13T18:26:21.631+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Runs
+[2024-12-13T18:26:21.650+0100] {override.py:1962} INFO - Added Permission can read on DAG Runs to role Admin
+[2024-12-13T18:26:21.689+0100] {override.py:1911} INFO - Created Permission View: can edit on DAG Runs
+[2024-12-13T18:26:21.712+0100] {override.py:1962} INFO - Added Permission can edit on DAG Runs to role Admin
+[2024-12-13T18:26:21.735+0100] {override.py:1911} INFO - Created Permission View: can delete on DAG Runs
+[2024-12-13T18:26:21.754+0100] {override.py:1962} INFO - Added Permission can delete on DAG Runs to role Admin
+[2024-12-13T18:26:21.774+0100] {override.py:1911} INFO - Created Permission View: menu access on DAG Runs
+[2024-12-13T18:26:21.791+0100] {override.py:1962} INFO - Added Permission menu access on DAG Runs to role Admin
+[2024-12-13T18:26:21.830+0100] {override.py:1911} INFO - Created Permission View: menu access on Browse
+[2024-12-13T18:26:21.850+0100] {override.py:1962} INFO - Added Permission menu access on Browse to role Admin
+[2024-12-13T18:26:21.909+0100] {override.py:1911} INFO - Created Permission View: can read on Jobs
+[2024-12-13T18:26:21.927+0100] {override.py:1962} INFO - Added Permission can read on Jobs to role Admin
+[2024-12-13T18:26:21.947+0100] {override.py:1911} INFO - Created Permission View: menu access on Jobs
+[2024-12-13T18:26:21.966+0100] {override.py:1962} INFO - Added Permission menu access on Jobs to role Admin
+[2024-12-13T18:26:22.022+0100] {override.py:1911} INFO - Created Permission View: can read on Audit Logs
+[2024-12-13T18:26:22.041+0100] {override.py:1962} INFO - Added Permission can read on Audit Logs to role Admin
+[2024-12-13T18:26:22.061+0100] {override.py:1911} INFO - Created Permission View: menu access on Audit Logs
+[2024-12-13T18:26:22.079+0100] {override.py:1962} INFO - Added Permission menu access on Audit Logs to role Admin
+[2024-12-13T18:26:22.128+0100] {override.py:1911} INFO - Created Permission View: can create on Variables
+[2024-12-13T18:26:22.147+0100] {override.py:1962} INFO - Added Permission can create on Variables to role Admin
+[2024-12-13T18:26:22.165+0100] {override.py:1911} INFO - Created Permission View: can read on Variables
+[2024-12-13T18:26:22.182+0100] {override.py:1962} INFO - Added Permission can read on Variables to role Admin
+[2024-12-13T18:26:22.199+0100] {override.py:1911} INFO - Created Permission View: can edit on Variables
+[2024-12-13T18:26:22.217+0100] {override.py:1962} INFO - Added Permission can edit on Variables to role Admin
+[2024-12-13T18:26:22.240+0100] {override.py:1911} INFO - Created Permission View: can delete on Variables
+[2024-12-13T18:26:22.258+0100] {override.py:1962} INFO - Added Permission can delete on Variables to role Admin
+[2024-12-13T18:26:22.277+0100] {override.py:1911} INFO - Created Permission View: menu access on Variables
+[2024-12-13T18:26:22.294+0100] {override.py:1962} INFO - Added Permission menu access on Variables to role Admin
+[2024-12-13T18:26:22.337+0100] {override.py:1911} INFO - Created Permission View: menu access on Admin
+[2024-12-13T18:26:22.446+0100] {override.py:1962} INFO - Added Permission menu access on Admin to role Admin
+[2024-12-13T18:26:22.505+0100] {override.py:1911} INFO - Created Permission View: can create on Task Instances
+[2024-12-13T18:26:22.524+0100] {override.py:1962} INFO - Added Permission can create on Task Instances to role Admin
+[2024-12-13T18:26:22.543+0100] {override.py:1911} INFO - Created Permission View: can read on Task Instances
+[2024-12-13T18:26:22.563+0100] {override.py:1962} INFO - Added Permission can read on Task Instances to role Admin
+[2024-12-13T18:26:22.583+0100] {override.py:1911} INFO - Created Permission View: can edit on Task Instances
+[2024-12-13T18:26:22.602+0100] {override.py:1962} INFO - Added Permission can edit on Task Instances to role Admin
+[2024-12-13T18:26:22.620+0100] {override.py:1911} INFO - Created Permission View: can delete on Task Instances
+[2024-12-13T18:26:22.821+0100] {override.py:1962} INFO - Added Permission can delete on Task Instances to role Admin
+[2024-12-13T18:26:22.843+0100] {override.py:1911} INFO - Created Permission View: menu access on Task Instances
+[2024-12-13T18:26:22.861+0100] {override.py:1962} INFO - Added Permission menu access on Task Instances to role Admin
+[2024-12-13T18:26:22.935+0100] {override.py:1911} INFO - Created Permission View: can read on Task Reschedules
+[2024-12-13T18:26:22.954+0100] {override.py:1962} INFO - Added Permission can read on Task Reschedules to role Admin
+[2024-12-13T18:26:22.973+0100] {override.py:1911} INFO - Created Permission View: menu access on Task Reschedules
+[2024-12-13T18:26:22.991+0100] {override.py:1962} INFO - Added Permission menu access on Task Reschedules to role Admin
+[2024-12-13T18:26:23.203+0100] {override.py:1911} INFO - Created Permission View: can read on Triggers
+[2024-12-13T18:26:23.330+0100] {override.py:1962} INFO - Added Permission can read on Triggers to role Admin
+[2024-12-13T18:26:23.504+0100] {override.py:1911} INFO - Created Permission View: menu access on Triggers
+[2024-12-13T18:26:23.619+0100] {override.py:1962} INFO - Added Permission menu access on Triggers to role Admin
+[2024-12-13T18:26:23.771+0100] {override.py:1911} INFO - Created Permission View: can read on Configurations
+[2024-12-13T18:26:23.880+0100] {override.py:1962} INFO - Added Permission can read on Configurations to role Admin
+[2024-12-13T18:26:23.963+0100] {override.py:1911} INFO - Created Permission View: menu access on Configurations
+[2024-12-13T18:26:23.997+0100] {override.py:1962} INFO - Added Permission menu access on Configurations to role Admin
+[2024-12-13T18:26:24.046+0100] {override.py:1911} INFO - Created Permission View: can create on Connections
+[2024-12-13T18:26:24.065+0100] {override.py:1962} INFO - Added Permission can create on Connections to role Admin
+[2024-12-13T18:26:24.083+0100] {override.py:1911} INFO - Created Permission View: can read on Connections
+[2024-12-13T18:26:24.101+0100] {override.py:1962} INFO - Added Permission can read on Connections to role Admin
+[2024-12-13T18:26:24.119+0100] {override.py:1911} INFO - Created Permission View: can edit on Connections
+[2024-12-13T18:26:24.142+0100] {override.py:1962} INFO - Added Permission can edit on Connections to role Admin
+[2024-12-13T18:26:24.170+0100] {override.py:1911} INFO - Created Permission View: can delete on Connections
+[2024-12-13T18:26:24.190+0100] {override.py:1962} INFO - Added Permission can delete on Connections to role Admin
+[2024-12-13T18:26:24.209+0100] {override.py:1911} INFO - Created Permission View: menu access on Connections
+[2024-12-13T18:26:24.228+0100] {override.py:1962} INFO - Added Permission menu access on Connections to role Admin
+[2024-12-13T18:26:24.279+0100] {override.py:1911} INFO - Created Permission View: can read on SLA Misses
+[2024-12-13T18:26:24.298+0100] {override.py:1962} INFO - Added Permission can read on SLA Misses to role Admin
+[2024-12-13T18:26:24.318+0100] {override.py:1911} INFO - Created Permission View: menu access on SLA Misses
+[2024-12-13T18:26:24.336+0100] {override.py:1962} INFO - Added Permission menu access on SLA Misses to role Admin
+[2024-12-13T18:26:24.355+0100] {override.py:1911} INFO - Created Permission View: can delete on SLA Misses
+[2024-12-13T18:26:24.380+0100] {override.py:1962} INFO - Added Permission can delete on SLA Misses to role Admin
+[2024-12-13T18:26:24.398+0100] {override.py:1911} INFO - Created Permission View: can edit on SLA Misses
+[2024-12-13T18:26:24.415+0100] {override.py:1962} INFO - Added Permission can edit on SLA Misses to role Admin
+[2024-12-13T18:26:24.462+0100] {override.py:1911} INFO - Created Permission View: can read on Plugins
+[2024-12-13T18:26:24.485+0100] {override.py:1962} INFO - Added Permission can read on Plugins to role Admin
+[2024-12-13T18:26:24.506+0100] {override.py:1911} INFO - Created Permission View: menu access on Plugins
+[2024-12-13T18:26:24.524+0100] {override.py:1962} INFO - Added Permission menu access on Plugins to role Admin
+[2024-12-13T18:26:24.571+0100] {override.py:1911} INFO - Created Permission View: can read on Providers
+[2024-12-13T18:26:24.591+0100] {override.py:1962} INFO - Added Permission can read on Providers to role Admin
+[2024-12-13T18:26:24.613+0100] {override.py:1911} INFO - Created Permission View: menu access on Providers
+[2024-12-13T18:26:24.634+0100] {override.py:1962} INFO - Added Permission menu access on Providers to role Admin
+[2024-12-13T18:26:24.696+0100] {override.py:1911} INFO - Created Permission View: can create on Pools
+[2024-12-13T18:26:24.717+0100] {override.py:1962} INFO - Added Permission can create on Pools to role Admin
+[2024-12-13T18:26:24.736+0100] {override.py:1911} INFO - Created Permission View: can read on Pools
+[2024-12-13T18:26:24.755+0100] {override.py:1962} INFO - Added Permission can read on Pools to role Admin
+[2024-12-13T18:26:24.773+0100] {override.py:1911} INFO - Created Permission View: can edit on Pools
+[2024-12-13T18:26:24.794+0100] {override.py:1962} INFO - Added Permission can edit on Pools to role Admin
+[2024-12-13T18:26:24.813+0100] {override.py:1911} INFO - Created Permission View: can delete on Pools
+[2024-12-13T18:26:24.833+0100] {override.py:1962} INFO - Added Permission can delete on Pools to role Admin
+[2024-12-13T18:26:24.851+0100] {override.py:1911} INFO - Created Permission View: menu access on Pools
+[2024-12-13T18:26:24.870+0100] {override.py:1962} INFO - Added Permission menu access on Pools to role Admin
+[2024-12-13T18:26:24.921+0100] {override.py:1911} INFO - Created Permission View: can read on XComs
+[2024-12-13T18:26:24.942+0100] {override.py:1962} INFO - Added Permission can read on XComs to role Admin
+[2024-12-13T18:26:24.961+0100] {override.py:1911} INFO - Created Permission View: can delete on XComs
+[2024-12-13T18:26:24.980+0100] {override.py:1962} INFO - Added Permission can delete on XComs to role Admin
+[2024-12-13T18:26:25.000+0100] {override.py:1911} INFO - Created Permission View: menu access on XComs
+[2024-12-13T18:26:25.042+0100] {override.py:1962} INFO - Added Permission menu access on XComs to role Admin
+[2024-12-13T18:26:25.108+0100] {override.py:1911} INFO - Created Permission View: menu access on DAG Dependencies
+[2024-12-13T18:26:25.127+0100] {override.py:1962} INFO - Added Permission menu access on DAG Dependencies to role Admin
+[2024-12-13T18:26:25.302+0100] {override.py:1911} INFO - Created Permission View: menu access on DAGs
+[2024-12-13T18:26:25.320+0100] {override.py:1962} INFO - Added Permission menu access on DAGs to role Admin
+[2024-12-13T18:26:25.356+0100] {override.py:1911} INFO - Created Permission View: menu access on Cluster Activity
+[2024-12-13T18:26:25.380+0100] {override.py:1962} INFO - Added Permission menu access on Cluster Activity to role Admin
+[2024-12-13T18:26:25.415+0100] {override.py:1911} INFO - Created Permission View: menu access on Datasets
+[2024-12-13T18:26:25.433+0100] {override.py:1962} INFO - Added Permission menu access on Datasets to role Admin
+[2024-12-13T18:26:25.475+0100] {override.py:1911} INFO - Created Permission View: menu access on Documentation
+[2024-12-13T18:26:25.502+0100] {override.py:1962} INFO - Added Permission menu access on Documentation to role Admin
+[2024-12-13T18:26:25.536+0100] {override.py:1911} INFO - Created Permission View: menu access on Docs
+[2024-12-13T18:26:25.558+0100] {override.py:1962} INFO - Added Permission menu access on Docs to role Admin
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/providers/fab/auth_manager/fab_auth_manager.py:569 FutureWarning: section/key [webserver/update_fab_perms] has been deprecated, you should use[fab/update_fab_perms] instead. Please update your `conf.get*` call to use the new name
+[2024-12-13T18:26:26.325+0100] {override.py:1911} INFO - Created Permission View: can delete on DAGs
+[2024-12-13T18:26:26.344+0100] {override.py:1911} INFO - Created Permission View: can read on DAGs
+[2024-12-13T18:26:26.363+0100] {override.py:1911} INFO - Created Permission View: can edit on DAGs
+[2024-12-13T18:26:26.387+0100] {override.py:1507} INFO - Inserted Role: Public
+[2024-12-13T18:26:26.403+0100] {override.py:1507} INFO - Inserted Role: Viewer
+[2024-12-13T18:26:26.422+0100] {override.py:1962} INFO - Added Permission can read on DAGs to role Viewer
+[2024-12-13T18:26:26.446+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Dependencies
+[2024-12-13T18:26:26.463+0100] {override.py:1962} INFO - Added Permission can read on DAG Dependencies to role Viewer
+[2024-12-13T18:26:26.495+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Code
+[2024-12-13T18:26:26.512+0100] {override.py:1962} INFO - Added Permission can read on DAG Code to role Viewer
+[2024-12-13T18:26:26.527+0100] {override.py:1962} INFO - Added Permission can read on DAG Runs to role Viewer
+[2024-12-13T18:26:26.547+0100] {override.py:1911} INFO - Created Permission View: can read on Datasets
+[2024-12-13T18:26:26.564+0100] {override.py:1962} INFO - Added Permission can read on Datasets to role Viewer
+[2024-12-13T18:26:26.583+0100] {override.py:1911} INFO - Created Permission View: can read on Cluster Activity
+[2024-12-13T18:26:26.599+0100] {override.py:1962} INFO - Added Permission can read on Cluster Activity to role Viewer
+[2024-12-13T18:26:26.615+0100] {override.py:1962} INFO - Added Permission can read on Pools to role Viewer
+[2024-12-13T18:26:26.649+0100] {override.py:1911} INFO - Created Permission View: can read on ImportError
+[2024-12-13T18:26:26.666+0100] {override.py:1962} INFO - Added Permission can read on ImportError to role Viewer
+[2024-12-13T18:26:26.700+0100] {override.py:1911} INFO - Created Permission View: can read on DAG Warnings
+[2024-12-13T18:26:26.716+0100] {override.py:1962} INFO - Added Permission can read on DAG Warnings to role Viewer
+[2024-12-13T18:26:26.733+0100] {override.py:1962} INFO - Added Permission can read on Jobs to role Viewer
+[2024-12-13T18:26:26.750+0100] {override.py:1962} INFO - Added Permission can read on My Password to role Viewer
+[2024-12-13T18:26:26.766+0100] {override.py:1962} INFO - Added Permission can edit on My Password to role Viewer
+[2024-12-13T18:26:26.783+0100] {override.py:1962} INFO - Added Permission can read on My Profile to role Viewer
+[2024-12-13T18:26:26.799+0100] {override.py:1962} INFO - Added Permission can edit on My Profile to role Viewer
+[2024-12-13T18:26:26.816+0100] {override.py:1962} INFO - Added Permission can read on SLA Misses to role Viewer
+[2024-12-13T18:26:26.833+0100] {override.py:1962} INFO - Added Permission can read on Task Instances to role Viewer
+[2024-12-13T18:26:26.865+0100] {override.py:1911} INFO - Created Permission View: can read on Task Logs
+[2024-12-13T18:26:26.888+0100] {override.py:1962} INFO - Added Permission can read on Task Logs to role Viewer
+[2024-12-13T18:26:26.907+0100] {override.py:1962} INFO - Added Permission can read on XComs to role Viewer
+[2024-12-13T18:26:26.941+0100] {override.py:1911} INFO - Created Permission View: can read on Website
+[2024-12-13T18:26:26.957+0100] {override.py:1962} INFO - Added Permission can read on Website to role Viewer
+[2024-12-13T18:26:26.974+0100] {override.py:1962} INFO - Added Permission menu access on Browse to role Viewer
+[2024-12-13T18:26:26.992+0100] {override.py:1962} INFO - Added Permission menu access on DAGs to role Viewer
+[2024-12-13T18:26:27.010+0100] {override.py:1962} INFO - Added Permission menu access on DAG Dependencies to role Viewer
+[2024-12-13T18:26:27.025+0100] {override.py:1962} INFO - Added Permission menu access on DAG Runs to role Viewer
+[2024-12-13T18:26:27.041+0100] {override.py:1962} INFO - Added Permission menu access on Datasets to role Viewer
+[2024-12-13T18:26:27.057+0100] {override.py:1962} INFO - Added Permission menu access on Cluster Activity to role Viewer
+[2024-12-13T18:26:27.073+0100] {override.py:1962} INFO - Added Permission menu access on Documentation to role Viewer
+[2024-12-13T18:26:27.094+0100] {override.py:1962} INFO - Added Permission menu access on Docs to role Viewer
+[2024-12-13T18:26:27.112+0100] {override.py:1962} INFO - Added Permission menu access on Jobs to role Viewer
+[2024-12-13T18:26:27.128+0100] {override.py:1962} INFO - Added Permission menu access on SLA Misses to role Viewer
+[2024-12-13T18:26:27.145+0100] {override.py:1962} INFO - Added Permission menu access on Task Instances to role Viewer
+[2024-12-13T18:26:27.161+0100] {override.py:1507} INFO - Inserted Role: User
+[2024-12-13T18:26:27.182+0100] {override.py:1962} INFO - Added Permission can read on DAGs to role User
+[2024-12-13T18:26:27.201+0100] {override.py:1962} INFO - Added Permission can read on DAG Dependencies to role User
+[2024-12-13T18:26:27.217+0100] {override.py:1962} INFO - Added Permission can read on DAG Code to role User
+[2024-12-13T18:26:27.234+0100] {override.py:1962} INFO - Added Permission can read on DAG Runs to role User
+[2024-12-13T18:26:27.252+0100] {override.py:1962} INFO - Added Permission can read on Datasets to role User
+[2024-12-13T18:26:27.269+0100] {override.py:1962} INFO - Added Permission can read on Cluster Activity to role User
+[2024-12-13T18:26:27.289+0100] {override.py:1962} INFO - Added Permission can read on Pools to role User
+[2024-12-13T18:26:27.306+0100] {override.py:1962} INFO - Added Permission can read on ImportError to role User
+[2024-12-13T18:26:27.324+0100] {override.py:1962} INFO - Added Permission can read on DAG Warnings to role User
+[2024-12-13T18:26:27.341+0100] {override.py:1962} INFO - Added Permission can read on Jobs to role User
+[2024-12-13T18:26:27.357+0100] {override.py:1962} INFO - Added Permission can read on My Password to role User
+[2024-12-13T18:26:27.381+0100] {override.py:1962} INFO - Added Permission can edit on My Password to role User
+[2024-12-13T18:26:27.425+0100] {override.py:1962} INFO - Added Permission can read on My Profile to role User
+[2024-12-13T18:26:27.441+0100] {override.py:1962} INFO - Added Permission can edit on My Profile to role User
+[2024-12-13T18:26:27.457+0100] {override.py:1962} INFO - Added Permission can read on SLA Misses to role User
+[2024-12-13T18:26:27.473+0100] {override.py:1962} INFO - Added Permission can read on Task Instances to role User
+[2024-12-13T18:26:27.491+0100] {override.py:1962} INFO - Added Permission can read on Task Logs to role User
+[2024-12-13T18:26:27.507+0100] {override.py:1962} INFO - Added Permission can read on XComs to role User
+[2024-12-13T18:26:27.525+0100] {override.py:1962} INFO - Added Permission can read on Website to role User
+[2024-12-13T18:26:27.541+0100] {override.py:1962} INFO - Added Permission menu access on Browse to role User
+[2024-12-13T18:26:27.557+0100] {override.py:1962} INFO - Added Permission menu access on DAGs to role User
+[2024-12-13T18:26:27.572+0100] {override.py:1962} INFO - Added Permission menu access on DAG Dependencies to role User
+[2024-12-13T18:26:27.589+0100] {override.py:1962} INFO - Added Permission menu access on DAG Runs to role User
+[2024-12-13T18:26:27.606+0100] {override.py:1962} INFO - Added Permission menu access on Datasets to role User
+[2024-12-13T18:26:27.623+0100] {override.py:1962} INFO - Added Permission menu access on Cluster Activity to role User
+[2024-12-13T18:26:27.639+0100] {override.py:1962} INFO - Added Permission menu access on Documentation to role User
+[2024-12-13T18:26:27.655+0100] {override.py:1962} INFO - Added Permission menu access on Docs to role User
+[2024-12-13T18:26:27.672+0100] {override.py:1962} INFO - Added Permission menu access on Jobs to role User
+[2024-12-13T18:26:27.691+0100] {override.py:1962} INFO - Added Permission menu access on SLA Misses to role User
+[2024-12-13T18:26:27.707+0100] {override.py:1962} INFO - Added Permission menu access on Task Instances to role User
+[2024-12-13T18:26:27.724+0100] {override.py:1962} INFO - Added Permission can edit on DAGs to role User
+[2024-12-13T18:26:27.739+0100] {override.py:1962} INFO - Added Permission can delete on DAGs to role User
+[2024-12-13T18:26:27.755+0100] {override.py:1962} INFO - Added Permission can create on Task Instances to role User
+[2024-12-13T18:26:27.772+0100] {override.py:1962} INFO - Added Permission can edit on Task Instances to role User
+[2024-12-13T18:26:27.790+0100] {override.py:1962} INFO - Added Permission can delete on Task Instances to role User
+[2024-12-13T18:26:27.805+0100] {override.py:1962} INFO - Added Permission can create on DAG Runs to role User
+[2024-12-13T18:26:27.820+0100] {override.py:1962} INFO - Added Permission can edit on DAG Runs to role User
+[2024-12-13T18:26:27.834+0100] {override.py:1962} INFO - Added Permission can delete on DAG Runs to role User
+[2024-12-13T18:26:27.852+0100] {override.py:1911} INFO - Created Permission View: can create on Datasets
+[2024-12-13T18:26:27.869+0100] {override.py:1962} INFO - Added Permission can create on Datasets to role User
+[2024-12-13T18:26:27.886+0100] {override.py:1507} INFO - Inserted Role: Op
+[2024-12-13T18:26:27.904+0100] {override.py:1962} INFO - Added Permission can read on DAGs to role Op
+[2024-12-13T18:26:27.923+0100] {override.py:1962} INFO - Added Permission can read on DAG Dependencies to role Op
+[2024-12-13T18:26:27.942+0100] {override.py:1962} INFO - Added Permission can read on DAG Code to role Op
+[2024-12-13T18:26:27.959+0100] {override.py:1962} INFO - Added Permission can read on DAG Runs to role Op
+[2024-12-13T18:26:27.976+0100] {override.py:1962} INFO - Added Permission can read on Datasets to role Op
+[2024-12-13T18:26:27.994+0100] {override.py:1962} INFO - Added Permission can read on Cluster Activity to role Op
+[2024-12-13T18:26:28.013+0100] {override.py:1962} INFO - Added Permission can read on Pools to role Op
+[2024-12-13T18:26:28.033+0100] {override.py:1962} INFO - Added Permission can read on ImportError to role Op
+[2024-12-13T18:26:28.051+0100] {override.py:1962} INFO - Added Permission can read on DAG Warnings to role Op
+[2024-12-13T18:26:28.067+0100] {override.py:1962} INFO - Added Permission can read on Jobs to role Op
+[2024-12-13T18:26:28.083+0100] {override.py:1962} INFO - Added Permission can read on My Password to role Op
+[2024-12-13T18:26:28.099+0100] {override.py:1962} INFO - Added Permission can edit on My Password to role Op
+[2024-12-13T18:26:28.115+0100] {override.py:1962} INFO - Added Permission can read on My Profile to role Op
+[2024-12-13T18:26:28.132+0100] {override.py:1962} INFO - Added Permission can edit on My Profile to role Op
+[2024-12-13T18:26:28.148+0100] {override.py:1962} INFO - Added Permission can read on SLA Misses to role Op
+[2024-12-13T18:26:28.165+0100] {override.py:1962} INFO - Added Permission can read on Task Instances to role Op
+[2024-12-13T18:26:28.183+0100] {override.py:1962} INFO - Added Permission can read on Task Logs to role Op
+[2024-12-13T18:26:28.198+0100] {override.py:1962} INFO - Added Permission can read on XComs to role Op
+[2024-12-13T18:26:28.216+0100] {override.py:1962} INFO - Added Permission can read on Website to role Op
+[2024-12-13T18:26:28.232+0100] {override.py:1962} INFO - Added Permission menu access on Browse to role Op
+[2024-12-13T18:26:28.249+0100] {override.py:1962} INFO - Added Permission menu access on DAGs to role Op
+[2024-12-13T18:26:28.264+0100] {override.py:1962} INFO - Added Permission menu access on DAG Dependencies to role Op
+[2024-12-13T18:26:28.280+0100] {override.py:1962} INFO - Added Permission menu access on DAG Runs to role Op
+[2024-12-13T18:26:28.296+0100] {override.py:1962} INFO - Added Permission menu access on Datasets to role Op
+[2024-12-13T18:26:28.313+0100] {override.py:1962} INFO - Added Permission menu access on Cluster Activity to role Op
+[2024-12-13T18:26:28.330+0100] {override.py:1962} INFO - Added Permission menu access on Documentation to role Op
+[2024-12-13T18:26:28.346+0100] {override.py:1962} INFO - Added Permission menu access on Docs to role Op
+[2024-12-13T18:26:28.362+0100] {override.py:1962} INFO - Added Permission menu access on Jobs to role Op
+[2024-12-13T18:26:28.383+0100] {override.py:1962} INFO - Added Permission menu access on SLA Misses to role Op
+[2024-12-13T18:26:28.399+0100] {override.py:1962} INFO - Added Permission menu access on Task Instances to role Op
+[2024-12-13T18:26:28.415+0100] {override.py:1962} INFO - Added Permission can edit on DAGs to role Op
+[2024-12-13T18:26:28.433+0100] {override.py:1962} INFO - Added Permission can delete on DAGs to role Op
+[2024-12-13T18:26:28.449+0100] {override.py:1962} INFO - Added Permission can create on Task Instances to role Op
+[2024-12-13T18:26:28.464+0100] {override.py:1962} INFO - Added Permission can edit on Task Instances to role Op
+[2024-12-13T18:26:28.482+0100] {override.py:1962} INFO - Added Permission can delete on Task Instances to role Op
+[2024-12-13T18:26:28.497+0100] {override.py:1962} INFO - Added Permission can create on DAG Runs to role Op
+[2024-12-13T18:26:28.512+0100] {override.py:1962} INFO - Added Permission can edit on DAG Runs to role Op
+[2024-12-13T18:26:28.533+0100] {override.py:1962} INFO - Added Permission can delete on DAG Runs to role Op
+[2024-12-13T18:26:28.551+0100] {override.py:1962} INFO - Added Permission can create on Datasets to role Op
+[2024-12-13T18:26:28.567+0100] {override.py:1962} INFO - Added Permission can read on Configurations to role Op
+[2024-12-13T18:26:28.583+0100] {override.py:1962} INFO - Added Permission menu access on Admin to role Op
+[2024-12-13T18:26:28.598+0100] {override.py:1962} INFO - Added Permission menu access on Configurations to role Op
+[2024-12-13T18:26:28.616+0100] {override.py:1962} INFO - Added Permission menu access on Connections to role Op
+[2024-12-13T18:26:28.632+0100] {override.py:1962} INFO - Added Permission menu access on Pools to role Op
+[2024-12-13T18:26:28.648+0100] {override.py:1962} INFO - Added Permission menu access on Plugins to role Op
+[2024-12-13T18:26:28.663+0100] {override.py:1962} INFO - Added Permission menu access on Variables to role Op
+[2024-12-13T18:26:28.679+0100] {override.py:1962} INFO - Added Permission menu access on Providers to role Op
+[2024-12-13T18:26:28.695+0100] {override.py:1962} INFO - Added Permission menu access on XComs to role Op
+[2024-12-13T18:26:28.710+0100] {override.py:1962} INFO - Added Permission can create on Connections to role Op
+[2024-12-13T18:26:28.725+0100] {override.py:1962} INFO - Added Permission can read on Connections to role Op
+[2024-12-13T18:26:28.744+0100] {override.py:1962} INFO - Added Permission can edit on Connections to role Op
+[2024-12-13T18:26:28.760+0100] {override.py:1962} INFO - Added Permission can delete on Connections to role Op
+[2024-12-13T18:26:28.777+0100] {override.py:1962} INFO - Added Permission can create on Pools to role Op
+[2024-12-13T18:26:28.792+0100] {override.py:1962} INFO - Added Permission can edit on Pools to role Op
+[2024-12-13T18:26:28.807+0100] {override.py:1962} INFO - Added Permission can delete on Pools to role Op
+[2024-12-13T18:26:28.822+0100] {override.py:1962} INFO - Added Permission can read on Plugins to role Op
+[2024-12-13T18:26:28.838+0100] {override.py:1962} INFO - Added Permission can read on Providers to role Op
+[2024-12-13T18:26:28.854+0100] {override.py:1962} INFO - Added Permission can create on Variables to role Op
+[2024-12-13T18:26:28.870+0100] {override.py:1962} INFO - Added Permission can read on Variables to role Op
+[2024-12-13T18:26:28.885+0100] {override.py:1962} INFO - Added Permission can edit on Variables to role Op
+[2024-12-13T18:26:28.900+0100] {override.py:1962} INFO - Added Permission can delete on Variables to role Op
+[2024-12-13T18:26:28.915+0100] {override.py:1962} INFO - Added Permission can delete on XComs to role Op
+[2024-12-13T18:26:28.933+0100] {override.py:1911} INFO - Created Permission View: can delete on Datasets
+[2024-12-13T18:26:28.949+0100] {override.py:1962} INFO - Added Permission can delete on Datasets to role Op
+[2024-12-13T18:26:28.966+0100] {override.py:1962} INFO - Added Permission can read on DAGs to role Admin
+[2024-12-13T18:26:28.984+0100] {override.py:1962} INFO - Added Permission can read on DAG Dependencies to role Admin
+[2024-12-13T18:26:29.003+0100] {override.py:1962} INFO - Added Permission can read on DAG Code to role Admin
+[2024-12-13T18:26:29.021+0100] {override.py:1962} INFO - Added Permission can read on Datasets to role Admin
+[2024-12-13T18:26:29.039+0100] {override.py:1962} INFO - Added Permission can read on Cluster Activity to role Admin
+[2024-12-13T18:26:29.057+0100] {override.py:1962} INFO - Added Permission can read on ImportError to role Admin
+[2024-12-13T18:26:29.076+0100] {override.py:1962} INFO - Added Permission can read on DAG Warnings to role Admin
+[2024-12-13T18:26:29.093+0100] {override.py:1962} INFO - Added Permission can read on Task Logs to role Admin
+[2024-12-13T18:26:29.111+0100] {override.py:1962} INFO - Added Permission can read on Website to role Admin
+[2024-12-13T18:26:29.127+0100] {override.py:1962} INFO - Added Permission can edit on DAGs to role Admin
+[2024-12-13T18:26:29.143+0100] {override.py:1962} INFO - Added Permission can delete on DAGs to role Admin
+[2024-12-13T18:26:29.163+0100] {override.py:1962} INFO - Added Permission can create on Datasets to role Admin
+[2024-12-13T18:26:29.180+0100] {override.py:1962} INFO - Added Permission can delete on Datasets to role Admin
+[2024-12-13 18:26:29 +0100] [3800] [INFO] Starting gunicorn 23.0.0
+[2024-12-13 18:26:29 +0100] [3800] [INFO] Listening at: http://0.0.0.0:8080 (3800)
+[2024-12-13 18:26:29 +0100] [3800] [INFO] Using worker: sync
+[2024-12-13 18:26:29 +0100] [3848] [INFO] Booting worker with pid: 3848
+[2024-12-13 18:26:29 +0100] [3849] [INFO] Booting worker with pid: 3849
+[2024-12-13 18:26:29 +0100] [3850] [INFO] Booting worker with pid: 3850
+[2024-12-13 18:26:29 +0100] [3851] [INFO] Booting worker with pid: 3851
+127.0.0.1 - - [13/Dec/2024:18:26:32 +0100] "GET / HTTP/1.1" 302 197 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:32 +0100] "GET /home HTTP/1.1" 302 285 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:26:32 +0100] "GET /login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome HTTP/1.1" 200 18637 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+[2024-12-13T18:26:44.490+0100] {override.py:1678} INFO - Updated user Abhijit Yadav
+127.0.0.1 - - [13/Dec/2024:18:26:44 +0100] "POST /login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome HTTP/1.1" 302 239 "http://localhost:8080/login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:26:44 +0100] "GET /home HTTP/1.1" 200 56253 "http://localhost:8080/login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:45 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:45 +0100] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:45 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:45 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:26:49 +0100] "GET /home HTTP/1.1" 200 56253 "http://localhost:8080/login/?next=http%3A%2F%2Flocalhost%3A8080%2Fhome" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:49 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:49 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:49 +0100] "POST /last_dagruns HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:49 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:51 +0100] "GET /dags/example_bash_operator/grid HTTP/1.1" 200 9389 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:51 +0100] "GET /static/dist/grid.bab9af8afcc169d7fe9f.js HTTP/1.1" 200 0 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:51 +0100] "GET /static/dist/dag.297a63e30f6354f7d245.js HTTP/1.1" 200 0 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:51 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 1368 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:26:52 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:52 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1281 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:52 +0100] "GET /api/v1/dags/example_bash_operator/details HTTP/1.1" 200 1907 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:26:59 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2364 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:02 +0100] "POST /paused?is_paused=true&dag_id=example_bash_operator HTTP/1.1" 200 2 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:27:29 +0100] "GET /dags/example_bash_operator/grid?tab=code HTTP/1.1" 200 9411 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:29 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:27:30 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:30 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1282 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:30 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2364 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:31 +0100] "GET /dags/example_bash_operator/grid?tab=code HTTP/1.1" 200 9410 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:31 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:27:31 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:32 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1282 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:32 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2364 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+127.0.0.1 - - [13/Dec/2024:18:27:37 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:37 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:38 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:38 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:38 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:41 +0100] "GET /dags/example_bash_operator/grid HTTP/1.1" 200 9394 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:41 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:41 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:41 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1282 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:41 +0100] "GET /api/v1/dags/example_bash_operator/details HTTP/1.1" 200 1908 "http://localhost:8080/dags/example_bash_operator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:43 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=runme_0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:43 +0100] "GET /api/v1/dags/example_bash_operator/tasks/runme_0 HTTP/1.1" 200 1098 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=runme_0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:43 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/runme_0/dependencies HTTP/1.1" 200 25 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=runme_0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:27:43 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/runme_0 HTTP/1.1" 200 946 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=runme_0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:28:12 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/runme_0/logs/1?full_content=false HTTP/1.1" 200 3127 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=runme_0&tab=logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:28:32 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/also_run_this HTTP/1.1" 200 960 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=also_run_this&tab=logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:28:32 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/also_run_this/logs/1?full_content=false HTTP/1.1" 200 3196 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=also_run_this&tab=logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:28:45 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/run_after_loop HTTP/1.1" 200 932 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:28:45 +0100] "GET /api/v1/dags/example_bash_operator/dagRuns/scheduled__2024-12-12T00:00:00+00:00/taskInstances/run_after_loop/logs/1?full_content=false HTTP/1.1" 200 3151 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=logs" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:29:50 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2364 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:30:12 +0100] "GET /dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code HTTP/1.1" 200 9447 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:12 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/auth.py:291 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:30:12 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:13 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1282 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:13 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2384 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:30:16 +0100] "GET /dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code HTTP/1.1" 200 9445 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:17 +0100] "GET /object/grid_data?dag_id=example_bash_operator&num_runs=25 HTTP/1.1" 200 3669 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:17 +0100] "GET /object/next_run_datasets/example_bash_operator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:17 +0100] "GET /api/v1/dags/example_bash_operator HTTP/1.1" 200 1282 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:17 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRLASIalCQJN2-3rfKyA2GKgNnVRFoesKdoOdhPfOdTYwxdx1djw3W0LGDY16Ar80_GGslILmHLQsLv_KD-hhIlA.eJQkg8A-8XGXassxECOAgKqW2aA HTTP/1.1" 200 2384 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:848 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/views.py:902 SADeprecationWarning: DISTINCT ON is currently supported only by the PostgreSQL dialect.  Use of DISTINCT ON for other backends is currently silently ignored, however this usage is deprecated, and will raise CompileError in a future release for all backends that do not support this syntax.
+/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/www/security_manager.py:257 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
+127.0.0.1 - - [13/Dec/2024:18:30:21 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:21 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:21 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:21 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:21 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:27 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:27 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:27 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:27 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:49 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:49 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:49 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:49 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:49 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:51 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:51 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:51 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:51 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:51 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:52 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:52 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:52 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:52 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:52 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:53 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:53 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:53 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:53 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:53 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:54 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_bash_operator/grid?dag_run_id=scheduled__2024-12-12T00%3A00%3A00%2B00%3A00&task_id=run_after_loop&tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:54 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:54 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:54 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:54 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:55 +0100] "GET /dags/example_sensor_decorator/grid HTTP/1.1" 200 9340 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:56 +0100] "GET /object/grid_data?dag_id=example_sensor_decorator&num_runs=25 HTTP/1.1" 200 482 "http://localhost:8080/dags/example_sensor_decorator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:56 +0100] "GET /object/next_run_datasets/example_sensor_decorator HTTP/1.1" 200 39 "http://localhost:8080/dags/example_sensor_decorator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:56 +0100] "GET /api/v1/dags/example_sensor_decorator HTTP/1.1" 200 1124 "http://localhost:8080/dags/example_sensor_decorator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:56 +0100] "GET /api/v1/dags/example_sensor_decorator/details HTTP/1.1" 200 1509 "http://localhost:8080/dags/example_sensor_decorator/grid" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:30:59 +0100] "GET /api/v1/dagSources/.eJwNycENwCAIAMBdHKCMRKgQJalCQJN2-3rfK9BtCBAPnXR3haYrxA12Etad62xgdnPX2fDc5ISMCkwtQV4a_gimzLRAlmpBy-Lyr_xUwyOj.7iH3IdWBSTZ0udpD7DKGs1jhh48 HTTP/1.1" 200 1912 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:04 +0100] "GET / HTTP/1.1" 302 197 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:05 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:05 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:05 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:05 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:05 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:07 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:07 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:07 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:07 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:07 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "GET /home HTTP/1.1" 200 56261 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:09 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:10 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:10 +0100] "POST /dag_stats HTTP/1.1" 200 488 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:10 +0100] "POST /task_stats HTTP/1.1" 200 1583 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:16 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:16 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:16 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:16 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:24 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:24 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:25 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:25 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:25 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:30 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:31 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:31 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:31:31 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:21 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:21 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:21 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:21 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:21 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:24 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:25 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:25 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:25 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:25 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:25 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:31 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:31 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:31 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:31 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:41 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:41 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:41 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:41 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:41 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:42 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:43 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:44 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:45 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:51 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:51 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:51 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:32:51 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:06 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:07 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:07 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:07 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:07 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:08 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:09 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:11 +0100] "GET /home HTTP/1.1" 200 49191 "http://localhost:8080/dags/example_sensor_decorator/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:11 +0100] "POST /blocked HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:11 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:11 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:11 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:17 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:17 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:17 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:17 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:26 +0100] "POST /dag_stats HTTP/1.1" 200 161 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:26 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:26 +0100] "POST /task_stats HTTP/1.1" 200 526 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:26 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:30 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:30 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:30 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:30 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /dag_stats HTTP/1.1" 200 324 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /last_dagruns HTTP/1.1" 200 329 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /task_stats HTTP/1.1" 200 1054 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:33 +0100] "POST /next_run_datasets_summary HTTP/1.1" 200 2 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:38 +0100] "GET /dagmodel/autocomplete?query=p&status=all HTTP/1.1" 200 154 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:38 +0100] "GET /dagmodel/autocomplete?query=py&status=all HTTP/1.1" 200 78 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:38 +0100] "GET /dagmodel/autocomplete?query=pyt&status=all HTTP/1.1" 200 78 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:38 +0100] "GET /dagmodel/autocomplete?query=pyth&status=all HTTP/1.1" 200 78 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:38 +0100] "GET /dagmodel/autocomplete?query=pytho&status=all HTTP/1.1" 200 78 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [13/Dec/2024:18:33:39 +0100] "GET /dagmodel/autocomplete?query=python&status=all HTTP/1.1" 200 78 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
