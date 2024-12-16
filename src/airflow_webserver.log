@@ -407,3 +407,8 @@ nohup: ignoring input
 127.0.0.1 - - [16/Dec/2024:20:32:04 +0100] "POST /last_dagruns HTTP/1.1" 200 1033 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 127.0.0.1 - - [16/Dec/2024:20:32:04 +0100] "POST /task_stats HTTP/1.1" 200 2100 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 127.0.0.1 - - [16/Dec/2024:20:32:04 +0100] "POST /dag_stats HTTP/1.1" 200 640 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+[2024-12-16 23:19:01 +0100] [22465] [INFO] Handling signal: ttin
+[2024-12-16 23:19:01 +0100] [131954] [INFO] Booting worker with pid: 131954
+[2024-12-16 23:19:02 +0100] [22465] [INFO] Handling signal: ttou
+[2024-12-16 23:19:02 +0100] [22528] [INFO] Worker exiting (pid: 22528)
+[2024-12-16 23:19:03 +0100] [22465] [ERROR] Worker (pid:22528) was sent SIGTERM!
