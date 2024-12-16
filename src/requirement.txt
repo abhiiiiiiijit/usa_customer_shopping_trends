@@ -1,1 +1,2 @@
-apache-airflow-providers-google
+#pip install apache-airflow-providers-google
+#pip install airflow-provider-great-expectations

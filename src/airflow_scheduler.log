@@ -1,99 +1,60 @@
 nohup: ignoring input
-/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
   ____________       _____________
  ____    |__( )_________  __/__  /________      __
 ____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
 ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
  _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
-[2024-12-14T13:20:42.302+0100] {_client.py:1025} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.3&python_version=3.10&platform=Linux&arch=x86_64&database=sqlite&db_version=3.37&executor=SequentialExecutor "HTTP/1.1 200 OK"
-[2024-12-14T13:20:42.483+0100] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
-[2024-12-14 13:20:42 +0100] [15256] [INFO] Starting gunicorn 23.0.0
-[2024-12-14 13:20:42 +0100] [15256] [INFO] Listening at: http://[::]:8793 (15256)
-[2024-12-14 13:20:42 +0100] [15256] [INFO] Using worker: sync
-[2024-12-14 13:20:42 +0100] [15257] [INFO] Booting worker with pid: 15257
-[2024-12-14T13:20:42.549+0100] {scheduler_job_runner.py:938} INFO - Starting the scheduler
-[2024-12-14T13:20:42.550+0100] {scheduler_job_runner.py:945} INFO - Processing each file at most -1 times
-[2024-12-14T13:20:42.558+0100] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 15258
-[2024-12-14T13:20:42.560+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:20:42.565+0100] {settings.py:63} INFO - Configured default timezone UTC
-[2024-12-14 13:20:42 +0100] [15259] [INFO] Booting worker with pid: 15259
-/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
-[2024-12-14T13:20:42.601+0100] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
-[2024-12-14T13:25:34.316+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:30:24.307+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:35:16.160+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:40:07.176+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:44:57.402+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:49:49.186+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:54:39.837+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T13:59:31.471+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:04:22.422+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:09:10.856+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:13:59.781+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:18:48.028+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:23:36.545+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:28:23.616+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:33:11.842+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:37:59.752+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:42:21.659+0100] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.providers.standard.operators.bash' found in /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/ingest_data_gcs_to_bq.py: No module named 'airflow.providers.standard'
-[2024-12-14T14:42:36.813+0100] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.providers.standard.operators.bash' found in /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/ingest_data_gcs_to_bq.py: No module named 'airflow.providers.standard'
-[2024-12-14T14:42:47.418+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:43:07.051+0100] {processor.py:401} WARNING - Error when trying to pre-import module 'airflow.providers.standard.operators.bash' found in /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/ingest_data_gcs_to_bq.py: No module named 'airflow.providers.standard'
-[2024-12-14T14:46:24.364+0100] {manager.py:537} INFO - DAG gcs_to_bigquery is missing and will be deactivated.
-[2024-12-14T14:46:24.369+0100] {manager.py:549} INFO - Deactivated 1 DAGs which are no longer present in file.
-[2024-12-14T14:46:24.386+0100] {manager.py:553} INFO - Deleted DAG gcs_to_bigquery in serialized_dag table
-[2024-12-14T14:47:33.660+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:52:19.086+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:57:03.480+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T14:57:29.648+0100] {manager.py:537} INFO - DAG shopping_data_gcs_to_bq is missing and will be deactivated.
-[2024-12-14T14:57:29.650+0100] {manager.py:549} INFO - Deactivated 1 DAGs which are no longer present in file.
-[2024-12-14T14:57:29.671+0100] {manager.py:553} INFO - Deleted DAG shopping_data_gcs_to_bq in serialized_dag table
-[2024-12-14T15:01:48.387+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:06:31.807+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:07:34.521+0100] {manager.py:537} INFO - DAG shopping_data_gcs_to_bq is missing and will be deactivated.
-[2024-12-14T15:07:34.523+0100] {manager.py:549} INFO - Deactivated 1 DAGs which are no longer present in file.
-[2024-12-14T15:07:34.563+0100] {manager.py:553} INFO - Deleted DAG shopping_data_gcs_to_bq in serialized_dag table
-[2024-12-14T15:11:17.233+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:16:01.910+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:19:41.183+0100] {manager.py:537} INFO - DAG shopping_data_gcs_to_bq is missing and will be deactivated.
-[2024-12-14T15:19:41.184+0100] {manager.py:549} INFO - Deactivated 1 DAGs which are no longer present in file.
-[2024-12-14T15:19:41.202+0100] {manager.py:553} INFO - Deleted DAG shopping_data_gcs_to_bq in serialized_dag table
-[2024-12-14T15:20:46.719+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:25:28.176+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:30:09.053+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:34:52.970+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:39:36.913+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:44:21.681+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:49:04.973+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:53:50.065+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
-[2024-12-14T15:58:08.848+0100] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+[2024-12-16T13:58:07.494+0100] {_client.py:1025} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.4&python_version=3.10&platform=Linux&arch=x86_64&database=sqlite&db_version=3.37&executor=SequentialExecutor "HTTP/1.1 200 OK"
+[2024-12-16T13:58:07.669+0100] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2024-12-16 13:58:07 +0100] [22466] [INFO] Starting gunicorn 23.0.0
+[2024-12-16 13:58:07 +0100] [22466] [INFO] Listening at: http://[::]:8793 (22466)
+[2024-12-16 13:58:07 +0100] [22466] [INFO] Using worker: sync
+[2024-12-16 13:58:07 +0100] [22467] [INFO] Booting worker with pid: 22467
+[2024-12-16T13:58:07.728+0100] {scheduler_job_runner.py:950} INFO - Starting the scheduler
+[2024-12-16T13:58:07.729+0100] {scheduler_job_runner.py:957} INFO - Processing each file at most -1 times
+[2024-12-16T13:58:07.736+0100] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 22468
+[2024-12-16T13:58:07.738+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T13:58:07.741+0100] {settings.py:63} INFO - Configured default timezone UTC
+[2024-12-16T13:58:07.757+0100] {scheduler_job_runner.py:1972} INFO - Marked 1 SchedulerJob instances as failed
+[2024-12-16T13:58:07.775+0100] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2024-12-16 13:58:07 +0100] [22476] [INFO] Booting worker with pid: 22476
+[2024-12-16T13:59:19.582+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
 	<TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>
-[2024-12-14T15:58:08.850+0100] {scheduler_job_runner.py:495} INFO - DAG shopping_data_gcs_to_bq has 0/16 running and queued tasks
-[2024-12-14T15:58:08.851+0100] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+[2024-12-16T13:59:19.582+0100] {scheduler_job_runner.py:507} INFO - DAG shopping_data_gcs_to_bq has 0/16 running and queued tasks
+[2024-12-16T13:59:19.583+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
 	<TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>
-[2024-12-14T15:58:08.895+0100] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
-[2024-12-14T15:58:08.903+0100] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='create_sales_dataset', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 2 and queue default
-[2024-12-14T15:58:08.904+0100] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'create_sales_dataset', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
-[2024-12-14T15:58:08.921+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'create_sales_dataset', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
-/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
-[2024-12-14T15:58:08.488+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/shopping_data_gcs_to_bq.py
-[2024-12-14T15:58:09.559+0100] {task_command.py:467} INFO - Running <TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [queued]> on host Abhijit.
-[2024-12-14T15:58:16.661+0100] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='create_sales_dataset', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=1, map_index=-1)
-[2024-12-14T15:58:16.668+0100] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=shopping_data_gcs_to_bq, task_id=create_sales_dataset, run_id=manual__2024-12-14T14:58:07.170331+00:00, map_index=-1, run_start_date=2024-12-14 14:58:09.619891+00:00, run_end_date=2024-12-14 14:58:15.996664+00:00, run_duration=6.376773, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=31, pool=default_pool, queue=default, priority_weight=2, operator=BigQueryCreateEmptyDatasetOperator, queued_dttm=2024-12-14 14:58:08.893208+00:00, queued_by_job_id=30, pid=47784
-[2024-12-14T15:58:16.875+0100] {scheduler_job_runner.py:423} INFO - 1 tasks up for execution:
+[2024-12-16T13:59:19.585+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-16T13:59:19.586+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='create_sales_dataset', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 2 and queue default
+[2024-12-16T13:59:19.586+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'create_sales_dataset', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
+[2024-12-16T13:59:19.602+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'create_sales_dataset', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
+[2024-12-16T13:59:20.907+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/shopping_data_gcs_to_bq.py
+[2024-12-16T13:59:22.074+0100] {task_command.py:467} INFO - Running <TaskInstance: shopping_data_gcs_to_bq.create_sales_dataset manual__2024-12-14T14:58:07.170331+00:00 [queued]> on host Abhijit.
+[2024-12-16T13:59:24.452+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='create_sales_dataset', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=2, map_index=-1)
+[2024-12-16T13:59:24.460+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=shopping_data_gcs_to_bq, task_id=create_sales_dataset, run_id=manual__2024-12-14T14:58:07.170331+00:00, map_index=-1, run_start_date=2024-12-16 12:59:22.124279+00:00, run_end_date=2024-12-16 12:59:23.702591+00:00, run_duration=1.578312, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=2, job_id=34, pool=default_pool, queue=default, priority_weight=2, operator=BigQueryCreateEmptyDatasetOperator, queued_dttm=2024-12-16 12:59:19.584204+00:00, queued_by_job_id=33, pid=22806
+[2024-12-16T13:59:24.568+0100] {scheduler_job_runner.py:435} INFO - 1 tasks up for execution:
 	<TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>
-[2024-12-14T15:58:16.876+0100] {scheduler_job_runner.py:495} INFO - DAG shopping_data_gcs_to_bq has 0/16 running and queued tasks
-[2024-12-14T15:58:16.876+0100] {scheduler_job_runner.py:634} INFO - Setting the following tasks to queued state:
+[2024-12-16T13:59:24.569+0100] {scheduler_job_runner.py:507} INFO - DAG shopping_data_gcs_to_bq has 0/16 running and queued tasks
+[2024-12-16T13:59:24.569+0100] {scheduler_job_runner.py:646} INFO - Setting the following tasks to queued state:
 	<TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>
-[2024-12-14T15:58:16.878+0100] {scheduler_job_runner.py:736} INFO - Trying to enqueue tasks: [<TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
-[2024-12-14T15:58:16.878+0100] {scheduler_job_runner.py:680} INFO - Sending TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='load_sales_data_to_bq', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=1, map_index=-1) to SequentialExecutor with priority 1 and queue default
-[2024-12-14T15:58:16.879+0100] {base_executor.py:168} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'load_sales_data_to_bq', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
-[2024-12-14T15:58:16.894+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'load_sales_data_to_bq', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
-/home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/configuration.py:859 FutureWarning: section/key [core/sql_alchemy_conn] has been deprecated, you should use[database/sql_alchemy_conn] instead. Please update your `conf.get*` call to use the new name
-[2024-12-14T15:58:18.008+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/shopping_data_gcs_to_bq.py
-[2024-12-14T15:58:18.851+0100] {task_command.py:467} INFO - Running <TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [queued]> on host Abhijit.
-[2024-12-14T15:58:27.789+0100] {scheduler_job_runner.py:764} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='load_sales_data_to_bq', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=1, map_index=-1)
-[2024-12-14T15:58:27.794+0100] {scheduler_job_runner.py:801} INFO - TaskInstance Finished: dag_id=shopping_data_gcs_to_bq, task_id=load_sales_data_to_bq, run_id=manual__2024-12-14T14:58:07.170331+00:00, map_index=-1, run_start_date=2024-12-14 14:58:18.902064+00:00, run_end_date=2024-12-14 14:58:27.163182+00:00, run_duration=8.261118, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=1, max_tries=1, job_id=32, pool=default_pool, queue=default, priority_weight=1, operator=GCSToBigQueryOperator, queued_dttm=2024-12-14 14:58:16.877243+00:00, queued_by_job_id=30, pid=47821
-[2024-12-14T15:58:28.003+0100] {dagrun.py:854} INFO - Marking run <DagRun shopping_data_gcs_to_bq @ 2024-12-14 14:58:07.170331+00:00: manual__2024-12-14T14:58:07.170331+00:00, state:running, queued_at: 2024-12-14 14:58:07.238862+00:00. externally triggered: True> successful
-[2024-12-14T15:58:28.005+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=shopping_data_gcs_to_bq, execution_date=2024-12-14 14:58:07.170331+00:00, run_id=manual__2024-12-14T14:58:07.170331+00:00, run_start_date=2024-12-14 14:58:08.686332+00:00, run_end_date=2024-12-14 14:58:28.005500+00:00, run_duration=19.319168, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-12-14 14:58:07.170331+00:00, data_interval_end=2024-12-14 14:58:07.170331+00:00, dag_hash=d6ece8d71f44b3fe83c256582db3fac0
-[2024-12-14T15:58:35.270+0100] {scheduler_job_runner.py:1852} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T13:59:24.570+0100] {scheduler_job_runner.py:748} INFO - Trying to enqueue tasks: [<TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [scheduled]>] for executor: SequentialExecutor(parallelism=32)
+[2024-12-16T13:59:24.571+0100] {scheduler_job_runner.py:692} INFO - Sending TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='load_sales_data_to_bq', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=2, map_index=-1) to SequentialExecutor with priority 1 and queue default
+[2024-12-16T13:59:24.571+0100] {base_executor.py:169} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'load_sales_data_to_bq', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
+[2024-12-16T13:59:24.586+0100] {sequential_executor.py:84} INFO - Executing command: ['airflow', 'tasks', 'run', 'shopping_data_gcs_to_bq', 'load_sales_data_to_bq', 'manual__2024-12-14T14:58:07.170331+00:00', '--local', '--subdir', 'DAGS_FOLDER/shopping_data_gcs_to_bq.py']
+[2024-12-16T13:59:26.030+0100] {dagbag.py:588} INFO - Filling up the DagBag from /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dags/shopping_data_gcs_to_bq.py
+[2024-12-16T13:59:27.082+0100] {task_command.py:467} INFO - Running <TaskInstance: shopping_data_gcs_to_bq.load_sales_data_to_bq manual__2024-12-14T14:58:07.170331+00:00 [queued]> on host Abhijit.
+[2024-12-16T13:59:31.716+0100] {scheduler_job_runner.py:776} INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='shopping_data_gcs_to_bq', task_id='load_sales_data_to_bq', run_id='manual__2024-12-14T14:58:07.170331+00:00', try_number=2, map_index=-1)
+[2024-12-16T13:59:31.721+0100] {scheduler_job_runner.py:813} INFO - TaskInstance Finished: dag_id=shopping_data_gcs_to_bq, task_id=load_sales_data_to_bq, run_id=manual__2024-12-14T14:58:07.170331+00:00, map_index=-1, run_start_date=2024-12-16 12:59:27.136037+00:00, run_end_date=2024-12-16 12:59:31.040689+00:00, run_duration=3.904652, state=success, executor=SequentialExecutor(parallelism=32), executor_state=success, try_number=2, max_tries=2, job_id=35, pool=default_pool, queue=default, priority_weight=1, operator=GCSToBigQueryOperator, queued_dttm=2024-12-16 12:59:24.570062+00:00, queued_by_job_id=33, pid=22831
+[2024-12-16T13:59:31.834+0100] {dagrun.py:854} INFO - Marking run <DagRun shopping_data_gcs_to_bq @ 2024-12-14 14:58:07.170331+00:00: manual__2024-12-14T14:58:07.170331+00:00, state:running, queued_at: 2024-12-16 12:59:15.954379+00:00. externally triggered: True> successful
+[2024-12-16T13:59:31.835+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=shopping_data_gcs_to_bq, execution_date=2024-12-14 14:58:07.170331+00:00, run_id=manual__2024-12-14T14:58:07.170331+00:00, run_start_date=2024-12-16 12:59:19.476679+00:00, run_end_date=2024-12-16 12:59:31.835268+00:00, run_duration=12.358589, state=success, external_trigger=True, run_type=manual, data_interval_start=2024-12-14 14:58:07.170331+00:00, data_interval_end=2024-12-14 14:58:07.170331+00:00, dag_hash=c823e093b5f898c6e907137832094f15
+[2024-12-16T14:02:58.497+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:07:50.007+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:12:41.203+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:17:32.313+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:22:22.427+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:27:13.260+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:32:04.013+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:36:53.558+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:41:44.087+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:46:34.638+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:51:23.721+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T14:56:13.742+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
