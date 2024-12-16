@@ -1,0 +1,152 @@
+{
+    "expectation_suite_name": "sales_data_suite",
+    "expectations": [
+      {
+        "expectation_type": "expect_table_columns_to_match_ordered_list",
+        "kwargs": {
+          "column_list": [
+            "Customer_ID", "Age", "Gender", "Item_Purchased", "Category", "Purchase_Amount_USD",
+            "Location", "Size", "Color", "Season", "Review_Rating", "Subscription_Status",
+            "Payment_Method", "Shipping_Type", "Discount_Applied", "Promo_Code_Used",
+            "Previous_Purchases", "Preferred_Payment_Method", "Frequency_of_Purchases"
+          ]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "column": "Customer_ID"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Customer_ID",
+          "type_": "INTEGER"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_type_list",
+        "kwargs": {
+          "column": "Age",
+          "type_list": ["INTEGER"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Gender",
+          "value_set": ["Male", "Female", "Other", "Unknown"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Item_Purchased",
+          "type_": "STRING"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Category",
+          "type_": "STRING"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Purchase_Amount_USD",
+          "type_": "FLOAT"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Location",
+          "type_": "STRING"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Size",
+          "value_set": ["XS", "S", "M", "L", "XL", "XXL", "Unknown"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Season",
+          "value_set": ["Spring", "Summer", "Autumn", "Winter", "Unknown"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "column": "Review_Rating",
+          "min_value": 1.0,
+          "max_value": 5.0,
+          "strict_min": false,
+          "strict_max": false
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Subscription_Status",
+          "type_": "BOOLEAN"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Payment_Method",
+          "value_set": ["Credit Card", "PayPal", "Bank Transfer", "Cash", "Other"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Shipping_Type",
+          "value_set": ["Standard", "Express", "Overnight", "Unknown"]
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Discount_Applied",
+          "type_": "BOOLEAN"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Promo_Code_Used",
+          "type_": "BOOLEAN"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Previous_Purchases",
+          "type_": "INTEGER"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_of_type",
+        "kwargs": {
+          "column": "Preferred_Payment_Method",
+          "type_": "STRING"
+        }
+      },
+      {
+        "expectation_type": "expect_column_values_to_be_in_set",
+        "kwargs": {
+          "column": "Frequency_of_Purchases",
+          "value_set": ["Daily", "Weekly", "Monthly", "Yearly", "Unknown"]
+        }
+      }
+    ]
+  }
+  
