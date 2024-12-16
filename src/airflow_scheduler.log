@@ -58,3 +58,22 @@ ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
 [2024-12-16T14:46:34.638+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2024-12-16T14:51:23.721+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2024-12-16T14:56:13.742+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:01:03.573+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:11:07.545+0100] {job.py:229} INFO - Heartbeat recovered after 329.73 seconds
+[2024-12-16T15:11:17.845+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:16:10.519+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:21:03.429+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:25:53.505+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:30:44.139+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:35:34.151+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:40:22.978+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:44:37.743+0100] {job.py:229} INFO - Heartbeat recovered after 93.81 seconds
+[2024-12-16T15:46:42.364+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T15:51:33.265+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T16:53:08.547+0100] {job.py:229} INFO - Heartbeat recovered after 3455.03 seconds
+[2024-12-16T16:53:53.082+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T16:58:45.306+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T17:03:35.303+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T17:08:26.063+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T17:13:15.756+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2024-12-16T17:18:03.560+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs

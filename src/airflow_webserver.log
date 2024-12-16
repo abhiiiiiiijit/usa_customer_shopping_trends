@@ -227,3 +227,13 @@ nohup: ignoring input
 /home/adminabhi/gitrepo/airflow_local_server/airflow-venv/lib/python3.10/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
 127.0.0.1 - - [16/Dec/2024:14:44:09 +0100] "GET /api/v1/datasets?dag_ids=ge_checks_sales HTTP/1.1" 200 43 "http://localhost:8080/dags/ge_checks_sales/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 127.0.0.1 - - [16/Dec/2024:14:44:10 +0100] "GET /object/graph_data?dag_id=ge_checks_sales HTTP/1.1" 200 273 "http://localhost:8080/dags/ge_checks_sales/grid?tab=graph" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Dec/2024:15:11:35 +0100] "GET /dags/ge_checks_sales/grid?tab=code HTTP/1.1" 200 9352 "http://localhost:8080/home" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Dec/2024:15:11:35 +0100] "GET /object/grid_data?dag_id=ge_checks_sales&num_runs=25 HTTP/1.1" 200 653 "http://localhost:8080/dags/ge_checks_sales/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Dec/2024:15:11:35 +0100] "GET /object/next_run_datasets/ge_checks_sales HTTP/1.1" 200 39 "http://localhost:8080/dags/ge_checks_sales/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Dec/2024:15:11:35 +0100] "GET /api/v1/dags/ge_checks_sales HTTP/1.1" 200 1152 "http://localhost:8080/dags/ge_checks_sales/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+127.0.0.1 - - [16/Dec/2024:15:11:36 +0100] "GET /api/v1/dagSources/.eJwNydENwCAIBcBdHKCMRKgSMK1KfPrR7ev9XiIfTUlKq11ur2R1TY1BG8J5Y52dDB8RtRuf6wWEmamIgUw5u-YHDHkVV3zpBxxwH68.XyxTchH5ZfNiK3zEtqsXJSG7K8E HTTP/1.1" 200 2274 "http://localhost:8080/dags/ge_checks_sales/grid?tab=code" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+[2024-12-16 15:40:20 +0100] [22465] [INFO] Handling signal: ttin
+[2024-12-16 15:40:20 +0100] [46481] [INFO] Booting worker with pid: 46481
+[2024-12-16 15:40:21 +0100] [22465] [INFO] Handling signal: ttou
+[2024-12-16 15:40:21 +0100] [22525] [INFO] Worker exiting (pid: 22525)
+[2024-12-16 15:40:22 +0100] [22465] [ERROR] Worker (pid:22525) was sent SIGTERM!
