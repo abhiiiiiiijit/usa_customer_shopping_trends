@@ -1,0 +1,10 @@
+data_source sales:
+  type: bigquery
+  connection:
+    account_info_json_path: /home/adminabhi/gitrepo/gcloud_cli/imp_files/usa_gcs_bq.json
+    auth_scopes:
+    - https://www.googleapis.com/auth/bigquery
+    - https://www.googleapis.com/auth/cloud-platform
+    - https://www.googleapis.com/auth/drive
+    project_id: 'usa-customer-shopping-trends'
+    dataset: sales
