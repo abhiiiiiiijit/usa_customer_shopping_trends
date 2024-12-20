@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: shopping_trends
+    description: "Tests for the shopping table"
+    columns:
+      - name: Customer_ID
+        description: "Primary identifier for each customer"
+        tests:
+          - not_null
+          - unique
+
+      - name: Age
+        description: "Age of the customer"
+        tests:
+          - not_null
+          - accepted_values:
+              values: "> 0"
+      - name: Gender
+        description: "Gender of the customer"
+        tests:
+          - null
