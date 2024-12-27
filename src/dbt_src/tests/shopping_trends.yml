@@ -1,22 +1,58 @@
+# filepath: /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dbt_src/models/shopping_trends.yml
 version: 2
 
 models:
-  - name: shopping_trends
-    description: "Tests for the shopping table"
+  - name: vw_shopping_trends
+    description: "A model for the shopping trends CSV file"
     columns:
       - name: Customer_ID
-        description: "Primary identifier for each customer"
+        description: "The unique identifier for each customer"
         tests:
           - not_null
           - unique
-
       - name: Age
-        description: "Age of the customer"
+        description: "The age of the customer"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 18
+              max_value: 100 # Adjust the range as needed
+      - name: Gender
+        description: "The gender of the customer"
         tests:
           - not_null
           - accepted_values:
-              values: "> 0"
-      - name: Gender
-        description: "Gender of the customer"
+              values: ['Male', 'Female', 'Other']
+      - name: Purchase_Amount_USD
+        description: "The amount spent by the customer"
         tests:
-          - null
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 10000  # Adjust the range as needed
+      - name: Review_Rating
+        description: "The review rating given by the customer"
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+              max_value: 5
+      - name: Subscription_Status
+        description: "The subscription status of the customer"
+        tests:
+          - not_null
+          - accepted_values:
+              values: [true, false]
+              quote: false
+      - name: Payment_Method
+        description: "The payment method used by the customer"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Credit Card', 'Bank Transfer', 'Cash', 'PayPal', 'Venmo', 'Debit Card']
+      - name: Shipping_Type
+        description: "The type of shipping chosen by the customer"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['Express', 'Free Shipping', 'Next Day Air', 'Standard', '2-Day Shipping', 'Store Pickup']
