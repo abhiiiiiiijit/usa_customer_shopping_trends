@@ -13,6 +13,7 @@ from airflow.providers.google.cloud.operators.bigquery import (
 from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.utils.dates import days_ago
+from airflow.operators.bash import BashOperator
 
 # Define default arguments for the DAG
 default_args = {
@@ -74,7 +75,13 @@ with DAG(
         ]
     )
 
-    create_sales_dataset >> load_sales_data_to_bq
+    check_sales_dataset = BashOperator(
+        task_id='check_sales_dataset',
+        bash_command='''bash -c "cd /home/adminabhi/gitrepo/usa_customer_shopping_trends/src/dbt_src && dbt test"'''
+
+    )
+
+    create_sales_dataset >> load_sales_data_to_bq >> check_sales_dataset
 
 
 
