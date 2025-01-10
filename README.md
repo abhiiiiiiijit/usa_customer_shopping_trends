@@ -1,8 +1,29 @@
-### Customer Purchase Pattern Analysis (USA)
+# Customer Purchase Pattern Analysis
 
-This project focuses on leveraging data analytics to uncover insights into customer purchase behaviours in the United States. By analysing transactional data, the project identifies patterns, trends, and key factors influencing purchasing decisions. The analysis aims to provide actionable insights for businesses to optimise their marketing strategies, inventory management, and customer engagement initiatives.
+This project focuses on leveraging data analytics to uncover insights into customer purchase behaviours in the United States of America. By analysing transactional data, the project identifies patterns, trends, and key factors influencing purchasing decisions. The analysis aims to provide actionable insights for businesses to optimise their marketing strategies, inventory management, and customer engagement initiatives. This is an end to end data analytics project right from data ingestion, transformation, data quality checks and finishing with building a dashboard. I will be using the [customer shopping dataset](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset) from Kaggle for building the dashboard. The pipeline architecture supports not only this particular data engineering workflow. It can be used to support large volume of complex bigdata.
 
-#### Key Features:
+## Architecture
+
+![Customer diagram](/diagrams/Architecture.jpg)
+
+### Apache Airflow
+I am using Apache Airflow for managing workflows for this project. This is an amazing open source tool which I used to build two DAGs one for uploading the CSV data from local to GCS and the second one to ingest data to Google Bigquery and then transform and do data quality checks the data using DBT. 
+
+### DBT
+
+
+
+### Github
+
+### Google Cloud Storage
+
+### Google Bigquery
+
+### Looker/Power BI/Tableau
+
+
+
+## Key Features:
 Data Preprocessing: Cleaning and transforming raw data to ensure accuracy and consistency.
 
 Exploratory Data Analysis (EDA): Detailed visualisations and statistical summaries to reveal significant trends and anomalies in customer behaviour.
