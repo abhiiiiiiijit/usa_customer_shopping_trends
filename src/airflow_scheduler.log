@@ -120,3 +120,9 @@ ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
 [2025-01-10T17:10:29.511+0100] {dagrun.py:854} INFO - Marking run <DagRun shopping_data_gcs_to_bq @ 2025-01-10 16:09:58.590757+00:00: manual__2025-01-10T16:09:58.590757+00:00, state:running, queued_at: 2025-01-10 16:09:58.619589+00:00. externally triggered: True> successful
 [2025-01-10T17:10:29.511+0100] {dagrun.py:905} INFO - DagRun Finished: dag_id=shopping_data_gcs_to_bq, execution_date=2025-01-10 16:09:58.590757+00:00, run_id=manual__2025-01-10T16:09:58.590757+00:00, run_start_date=2025-01-10 16:09:59.831496+00:00, run_end_date=2025-01-10 16:10:29.511800+00:00, run_duration=29.680304, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-01-10 16:09:58.590757+00:00, data_interval_end=2025-01-10 16:09:58.590757+00:00, dag_hash=24a96cd08548b42db8ee096bc35f6b8d
 [2025-01-10T17:12:04.681+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:16:48.162+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:21:32.398+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:26:16.272+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:30:58.222+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:35:42.565+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:40:26.321+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs

@@ -71,11 +71,16 @@ To execute the project, follow these steps:
     ```
 
    - Access the Airflow web interface at `http://localhost:8080`.
+
+   ![Airflow UI](/diagrams/Airflow_UI.png)
+
    - Trigger the two DAG's to start the data pipeline.
       ```
          dag_upload_csv_to_gcs
          shopping_data_gcs_to_bq
       ```
+   ![Airflow_gcs_2_bq_dag](/diagrams/Airflow_gcs_2_bq_dag.png)
+
 
 3. **Analyze Data**:
    - Use Power BI to connect to BigQuery and create visualisations of customer shopping trends.
