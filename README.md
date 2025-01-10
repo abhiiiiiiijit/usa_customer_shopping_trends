@@ -1,46 +1,88 @@
-# Customer Purchase Pattern Analysis
+# USA Customer Shopping Trends
 
-This project focuses on leveraging data analytics to uncover insights into customer purchase behaviours in the United States of America. By analysing transactional data, the project identifies patterns, trends, and key factors influencing purchasing decisions. The analysis aims to provide actionable insights for businesses to optimise their marketing strategies, inventory management, and customer engagement initiatives. This is an end to end data analytics project right from data ingestion, transformation, data quality checks and finishing with building a dashboard. I will be using the [customer shopping dataset](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset) from Kaggle for building the dashboard. The pipeline architecture supports not only this particular data engineering workflow. It can be used to support large volume of complex bigdata.
+## Project Overview
+
+This project analyses shopping trends among customers in the USA. By examining factors such as age, gender, location, and purchase behaviour, it provides valuable insights into customer preferences and trends. The data is sourced from a CSV file, processed using Apache Airflow and dbt (data build tool), and visualised using Power BI. The dataset used is the [Customer Shopping Trends Dataset](https://www.kaggle.com/datasets/bhadramohit/customer-shopping-latest-trends-dataset) from Kaggle.
 
 ## Architecture
+![Architecture](/diagrams/Architecture.jpg)
 
-![Customer diagram](/diagrams/Architecture.jpg)
+The project architecture comprises the following components:
 
-### Apache Airflow
-I am using Apache Airflow for managing workflows for this project. This is an amazing open source tool which I used to build two DAGs one for uploading the CSV data from local to GCS and the second one to ingest data to Google Bigquery and then transform and do data quality checks the data using DBT. 
+1. **Data Source**: A CSV file containing customer shopping data.
+2. **Google Cloud Storage (GCS)**: Used to store the CSV file.
+3. **BigQuery**: Hosts the data for analysis after being loaded from GCS.
+4. **Apache Airflow**: Orchestrates the workflow, including uploading data to GCS and loading it into BigQuery.
+5. **dbt**: Executes data quality checks and performs data transformations within BigQuery.
+6. **Power BI**: Visualises customer data for intuitive trend analysis.
 
-### DBT
+## Installation
 
+To set up the project, follow these steps:
 
+1. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/abhiiiiiiijit/usa_customer_shopping_trends.git
+   ```
 
-### Github
+2. **Install Dependencies using Poetry**:
+   ```sh
+   poetry install
+   ```
 
-### Google Cloud Storage
-
-### Google Bigquery
-
-### Looker/Power BI/Tableau
-
-
-
-## Key Features:
-Data Preprocessing: Cleaning and transforming raw data to ensure accuracy and consistency.
-
-Exploratory Data Analysis (EDA): Detailed visualisations and statistical summaries to reveal significant trends and anomalies in customer behaviour.
-
-Segmentation: Categorising customers based on purchase frequency, monetary value, and other key metrics.
-Trend Analysis: Identifying seasonal trends, peak purchasing periods, and product preferences.
-Predictive Insights: Implementing machine learning models to predict future purchasing behaviours and customer lifetime value.
-Tools and Technologies:
-Programming Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn).
-Data Visualisation: Interactive dashboards using Looker or Power BI.
-Databases: BigQuery for structured data management.
-Workflow manager: Apache Airflow
+3. **Configure Google Cloud**:
+    - Create a Google Cloud project.
+    - Enable the BigQuery and GCS APIs.
+    - Create a GCS bucket to store the CSV file.
+    - Set up a service account and download the JSON key file.
 
 
-#### Outcomes:
+4. **Set Up Apache Airflow**:
 
-Comprehensive insights into customer purchasing habits.
-Data-driven recommendations for enhancing business operations.
-Customised reporting for stakeholder decision-making.
-This repository is designed for analysts, data scientists, and business strategists interested in exploring and understanding customer purchase patterns in depth.
+    - Configure Airflow to use the Google Cloud service account key (the JSON file downloaded in the previous step).
+    - There are two DAGs (Directed Acyclic Graphs):
+        - Uploading data to GCS (dag_upload_csv_to_gcs ).
+        - Loading data into BigQuery, transformation and data quality checks using dbt (shopping_data_gcs_to_bq ).
+
+
+5. **Deploy dbt Models**:
+   - Set up a profiles.yml file to connect dbt to your BigQuery project.
+   - Deploy and run dbt models.
+
+
+7. **Visualize Data with Power BI**:
+   - Connect Power BI to BigQuery.
+   - Create dashboards and reports to visualize customer shopping trends.
+
+## Usage
+
+To execute the project, follow these steps:
+
+1. **Activate Virtual Environment**:
+   ```sh
+   source venv/bin/activate
+   ```
+
+2. **Run Airflow DAG**:
+    Start the Airflow web server and scheduler:
+    ```sh
+    - airflow webserver --port 8080
+    - airflow scheduler
+    ```
+
+   - Access the Airflow web interface at `http://localhost:8080`.
+
+   ![Airflow UI](/diagrams/Airflow_UI.png)
+
+   - Trigger the two DAG's to start the data pipeline.
+      ```
+         dag_upload_csv_to_gcs
+         shopping_data_gcs_to_bq
+      ```
+   ![Airflow_gcs_2_bq_dag](/diagrams/Airflow_gcs_2_bq_dag.png)
+
+
+3. **Analyze Data**:
+   - Use Power BI to connect to BigQuery and create visualisations of customer shopping trends.
+
+
