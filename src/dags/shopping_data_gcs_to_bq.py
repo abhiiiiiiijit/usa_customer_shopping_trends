@@ -32,7 +32,7 @@ with DAG(
     schedule_interval=None,  # You can set this to a cron schedule if needed
     start_date=days_ago(1),
     catchup=False,
-    tags=['example'],
+    tags=['customer', 'gcs', 'bigquery'],
 ) as dag:
 
     create_sales_dataset = BigQueryCreateEmptyDatasetOperator(
