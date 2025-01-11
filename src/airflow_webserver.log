@@ -348,3 +348,8 @@ nohup: ignoring input
 /root/.cache/pypoetry/virtualenvs/usa-customer-shopping-trends-CjWdkvgt-py3.10/lib/python3.10/site-packages/airflow/api_connexion/security.py:189 AirflowProviderDeprecationWarning: is_authorized_dataset will be renamed as is_authorized_asset in Airflow 3 and will be removed when the minimum Airflow version is set to 3.0 for the fab provider
 127.0.0.1 - - [10/Jan/2025:17:12:46 +0100] "GET /object/grid_data?dag_id=shopping_data_gcs_to_bq&num_runs=25 HTTP/1.1" 200 4273 "http://localhost:8080/dags/shopping_data_gcs_to_bq/grid?tab=graph&dag_run_id=manual__2025-01-10T16%3A09%3A58.590757%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
 127.0.0.1 - - [10/Jan/2025:17:12:46 +0100] "GET /api/v1/datasets/events?source_dag_id=shopping_data_gcs_to_bq&source_run_id=manual__2025-01-10T16%3A09%3A58.590757%2B00%3A00 HTTP/1.1" 200 49 "http://localhost:8080/dags/shopping_data_gcs_to_bq/grid?tab=graph&dag_run_id=manual__2025-01-10T16%3A09%3A58.590757%2B00%3A00" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+[2025-01-11 13:51:09 +0100] [62375] [INFO] Handling signal: ttin
+[2025-01-11 13:51:10 +0100] [81150] [INFO] Booting worker with pid: 81150
+[2025-01-11 13:51:11 +0100] [62375] [INFO] Handling signal: ttou
+[2025-01-11 13:51:11 +0100] [62412] [INFO] Worker exiting (pid: 62412)
+[2025-01-11 13:51:12 +0100] [62375] [ERROR] Worker (pid:62412) was sent SIGTERM!
