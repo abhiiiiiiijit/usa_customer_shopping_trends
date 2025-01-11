@@ -126,3 +126,55 @@ ___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
 [2025-01-10T17:30:58.222+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2025-01-10T17:35:42.565+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
 [2025-01-10T17:40:26.321+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:45:10.002+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-10T17:49:53.672+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T12:52:07.256+0100] {job.py:229} INFO - Heartbeat recovered after 68362.11 seconds
+[2025-01-11T12:59:39.851+0100] {job.py:229} INFO - Heartbeat recovered after 394.04 seconds
+[2025-01-11T13:09:46.302+0100] {job.py:229} INFO - Heartbeat recovered after 606.48 seconds
+[2025-01-11T13:10:13.049+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:14:47.510+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:19:21.197+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:23:54.862+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:28:25.585+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:32:59.237+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:37:32.985+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:42:06.662+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:46:37.625+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:51:11.278+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T13:55:44.941+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:00:15.731+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:04:49.495+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:09:23.162+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:13:53.914+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:18:27.558+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:23:01.216+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:27:31.949+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:32:05.667+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:36:40.427+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:41:14.095+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:45:47.764+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:50:18.478+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11 14:53:40 +0100] [62376] [ERROR] Worker (pid:62379) was sent SIGHUP!
+[2025-01-11 14:53:41 +0100] [62376] [ERROR] Worker (pid:62377) was sent SIGHUP!
+[2025-01-11 14:53:41 +0100] [62376] [INFO] Handling signal: hup
+[2025-01-11 14:53:41 +0100] [62376] [INFO] Hang up: Master
+[2025-01-11 14:53:41 +0100] [91760] [INFO] Booting worker with pid: 91760
+[2025-01-11 14:53:41 +0100] [91761] [INFO] Booting worker with pid: 91761
+[2025-01-11 14:53:41 +0100] [91760] [INFO] Worker exiting (pid: 91760)
+[2025-01-11 14:53:41 +0100] [91761] [INFO] Worker exiting (pid: 91761)
+[2025-01-11 14:53:41 +0100] [91765] [INFO] Booting worker with pid: 91765
+[2025-01-11 14:53:41 +0100] [91766] [INFO] Booting worker with pid: 91766
+[2025-01-11T14:54:52.141+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:59:25.832+0100] {scheduler_job_runner.py:1949} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-01-11T14:59:33.488+0100] {scheduler_job_runner.py:272} INFO - Exiting gracefully upon receiving signal 15
+[2025-01-11T14:59:34.379+0100] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 62378. PIDs of all processes in the group: []
+[2025-01-11T14:59:34.380+0100] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 62378
+[2025-01-11T14:59:34.380+0100] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 62378 as process group is missing.
+[2025-01-11T14:59:34.381+0100] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 62378. PIDs of all processes in the group: []
+[2025-01-11T14:59:34.382+0100] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 62378
+[2025-01-11T14:59:34.382+0100] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 62378 as process group is missing.
+[2025-01-11T14:59:34.383+0100] {scheduler_job_runner.py:1029} INFO - Exited execute loop
+[2025-01-11 14:59:34 +0100] [62376] [INFO] Handling signal: term
+[2025-01-11 14:59:34 +0100] [91765] [INFO] Worker exiting (pid: 91765)
+[2025-01-11 14:59:34 +0100] [91766] [INFO] Worker exiting (pid: 91766)
+[2025-01-11 14:59:34 +0100] [62376] [INFO] Shutting down: Master
